@@ -1,0 +1,96 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-family: "roboto", arial, sans-serif;
+    color: whitesmoke;
+}
+.wrapper {
+    background: url(img/background1.png);
+    height: 700px;
+    margin:10px;
+    max-width: 1024px;
+}
+.navigation {
+    margin: 20px;
+    float: right;
+    display: flex;
+}
+.logo {
+    height: 50px;
+    padding: 20px;
+}
+.navigation__item {
+    display: inline;
+}
+.item-active a{
+    text-decoration: none;
+}
+.navigation__item a {
+    padding: 10px;
+    text-decoration: none;
+    text-color: blue;
+    font-family: Tahoma bold;
+}
+.main__text h1 {
+    padding: 200px 150px 20px 100px;
+    text-align: center;
+}
+.main__text p {
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 100px;
+}
+.main__button {
+    position: absolute;
+    margin: 200px 400px;
+}
+.main__button__text {
+    padding: 5px;
+    border: 1px solid aquamarine;
+    text-align: center;
+    color: darkcyan;
+}
+.main__dots {
+    position: absolute;
+    margin-bottom: 200px;
+    padding: 15px 20px;
+    margin-left: 20px;
+}
+.content {
+    max-width: 1024px;
+    height: 320px;
+    display: inline;
+}
+.logo {
+    height: 150px;
+    float: left;
+    padding-left: 250px;
+}
+.text {
+    display: block;
+    float: right;
+    padding-right: 450px;
+    padding-bottom: 150px;
+}
+ .button1 {
+     position: absolute;
+     padding-right: 300px;
+     padding-top: 200px;
+ }
+ .button1__box {
+     width: 122px;
+     height: 42px;
+ }
+ .button1__text {
+     padding: 5px;
+     border: 1px solid aquamarine;
+     color: darkcyan;
+ }
+.videoban {
+    background-image: url(img/background_video.png);
+    max-width: 1024px;
+}
